@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rubydose: Free Red Light Therapy Timer and Log for Android</title>
+<meta name="description" content="Rubydose works out minutes per area from your LED mask or panel's irradiance, times sessions with chimes for closed eyes, and logs every dose. Free for Android.">
+<meta property="og:title" content="Rubydose: Red Light Therapy Timer & Log">
+<meta property="og:description" content="Know your red light therapy dose, not just the minutes. Free for Android.">
+<meta property="og:image" content="https://nookeshkarri7.github.io/rubydose/assets/feature-graphic-1024x500.png">
+<link rel="icon" href="assets/icon-512.png">
+<style>
+  :root { --bg:#120A0C; --card:#1E1215; --ink:#F6ECE8; --muted:#B9A3A0; --ruby:#FF3B4E; --on:#1B0A0D; --link:#FF6B78; color-scheme: dark light; }
+  @media (prefers-color-scheme: light) { :root { --bg:#FBF6F3; --card:#fff; --ink:#1E1215; --muted:#6E5A57; --ruby:#C8102E; --on:#fff; --link:#B0102A; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:400 18px/1.55 system-ui, sans-serif; }
+  .wrap { max-width:960px; margin:0 auto; padding:0 16px; }
+  header { display:flex; align-items:center; gap:12px; padding:20px 0; }
+  header img { width:40px; height:40px; border-radius:10px; }
+  h1 { font-size:clamp(32px,6vw,52px); line-height:1.08; letter-spacing:-0.02em; margin:16px 0; }
+  h2 { font-size:28px; margin:48px 0 12px; }
+  p.lead { color:var(--muted); font-size:20px; max-width:38rem; }
+  a { color:var(--link); }
+  .btn { display:inline-block; margin:16px 0; padding:14px 24px; border-radius:28px; background:var(--ruby); color:var(--on); font-weight:700; text-decoration:none; }
+  .shots { display:flex; gap:16px; overflow-x:auto; padding-bottom:8px; }
+  .shots img { width:220px; height:auto; border-radius:20px; flex:none; }
+  ul.f { padding:0; list-style:none; display:grid; gap:12px; }
+  ul.f li { background:var(--card); border-radius:16px; padding:16px 18px; }
+  .video { aspect-ratio:9/16; width:min(320px,100%); border:0; border-radius:20px; }
+  footer { color:var(--muted); font-size:15px; padding:48px 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><img src="assets/icon-512.png" alt=""><strong>Rubydose</strong></header>
+  <main>
+    <h1>A red light therapy timer that knows your dose</h1>
+    <p class="lead">Rubydose is a free Android app for the LED face mask, red light panel or wand you already own. Enter the numbers from its manual, and it works out the minutes per area, chimes when to move the light, and logs every session.</p>
+    <a class="btn" href="https://play.google.com/store/apps/details?id=com.rubydoseapp.rubydose&amp;utm_source=github&amp;utm_medium=pages">Get Rubydose on Google Play</a>
+
+    <div class="shots">
+      <img src="assets/home.webp" alt="Home screen with today's dose ring" width="540" height="960">
+      <img src="assets/live.webp" alt="Live session countdown with dim mode and hold to stop" width="540" height="960">
+      <img src="assets/calculator.webp" alt="Dose calculator showing minutes per area" width="540" height="960">
+      <img src="assets/log.webp" alt="Log with days per area and a rest-day note" width="540" height="960">
+    </div>
+
+    <h2>Features</h2>
+    <ul class="f">
+      <li><b>Dose calculator.</b> Irradiance (mW/cm²) and target dose (J/cm²) in, minutes per area out, with the sum written out.</li>
+      <li><b>Eyes-closed timer.</b> Areas in order, a chime and buzz at each change, dim mode, and hold-to-stop so a bump never ends a session.</li>
+      <li><b>Keeps time when closed.</b> Lock the phone or switch apps and the countdown stays right.</li>
+      <li><b>Session log and rest nudges.</b> Days per area this week, a streak, reminders, and a nudge after 4 days running on one area.</li>
+      <li><b>Free, no account, offline.</b> Sessions and progress photos stay on your phone.</li>
+    </ul>
+
+    <h2>See it in 25 seconds</h2>
+    <iframe class="video" src="https://www.youtube-nocookie.com/embed/KG0-scRpVLs" title="Rubydose teaser" loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe>
+
+    <h2>More</h2>
+    <p><a href="https://rubydose.pages.dev/">Rubydose website</a> · <a href="https://rubydose.pages.dev/privacy/">Privacy policy</a> · <a href="https://youtube.com/shorts/KG0-scRpVLs">Teaser on YouTube</a> · <a href="https://play.google.com/store/apps/developer?id=NK+Tools">More apps from NK Tools</a></p>
+  </main>
+  <footer>© 2026 Rubydose by NK Tools. A timer and log for red light devices, not a medical device.</footer>
+</div>
+</body>
+</html>
